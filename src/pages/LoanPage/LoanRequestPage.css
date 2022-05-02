@@ -1,0 +1,37 @@
+.mainContainer {
+    margin: 0 4.5em;
+    /* display: grid; */
+    /* grid-template-columns: 80% 20%; */
+}
+
+.loanContainer {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    column-gap: 2em;
+
+}
+
+.backWrapper {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+
+.leftSideLoan {
+    display: grid;
+}
+
+
+.rightSideLoan {
+    display: grid;
+
+}
+
+.anlysisContainer {
+    display: grid;
+}
+
+.right-block-mainContainer{
+    /*border: 1px solid red;*/
+}

@@ -1,0 +1,154 @@
+.navigationContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 1px solid red;*/
+    background: #ffffff;
+}
+
+.navigationContainerUnwrapper {
+    /*border: 1px solid red;*/
+}
+
+
+.leftNavSide {
+    display: flex;
+    align-items: center;
+}
+
+.navLinkItem {
+    margin-left: 2.5em;
+}
+
+.rightNavSide {
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.navDivider,
+.navIcon {
+    margin: 0 0.5em;
+}
+
+.searchWrapper {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    right: 0.3em;
+    transform: translateY(-50%);
+}
+
+.searchInput {
+    height: 1.9em;
+    width: 30em;
+    border-radius: 0.5em;
+}
+
+.navUserName {
+    font-weight: 600;
+}
+
+.navLinkItem_clear-style {
+    text-decoration: none;
+    color: black;
+}
+
+.arion-fond-icon {
+    width: 100px;
+    /*border: 1px solid black;*/
+    background: rgba(220, 220, 220, 0.561);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arion-fond-title {
+    /*display: block;*/
+    background: rgb(235, 235, 235);
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    padding: 1px;
+    z-index: 10;
+}
+
+.nav-links {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rightNavSide {
+    /*border: 1px solid red;*/
+}
+
+.arion-fond-line-left,
+.arion-fond-lene-right {
+    position: absolute;
+    border: 1px solid gray;
+    width: 100%;
+    transform: rotate(15deg);
+    left: -1px;
+    top: .95em;
+    z-index: 1;
+}
+
+.arion-fond-lene-right {
+    border: 1px solid gray;
+    transform: rotate(-15deg);
+}
+
+.navLinkItem-active {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .navLinkItem {
+        margin-left: 0;
+    }
+
+    .rightNavSide {
+        margin-left: 0%;
+    }
+
+    .navUserName {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .searchWrapper {
+        width: 50%;
+    }
+
+    .searchInput {
+        width: 100%;
+    }
+
+    .navUserName {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rightNavSide {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .arion-fond-line-left,
+    .arion-fond-lene-right {
+        display: none;
+    }
+
+    .nav-links {
+        justify-content: space-around;
+    }
+}

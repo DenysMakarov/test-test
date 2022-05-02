@@ -1,0 +1,55 @@
+.cardBody {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    /* border: 1px solid black; */
+}
+
+.cardBodyLeft {
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5em;
+    background-color: white;
+}
+
+.cardBodyRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.showDetailsText {
+    text-decoration: underline;
+    align-self: flex-end;
+    margin-bottom: 0.7em;
+}
+
+.checkIcon {
+    margin: 1em
+}
+
+.dataMsg {
+    max-width: 9.375em;
+}
+
+.borrowerLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.borrowerLine:hover {
+    cursor: pointer;
+}
+
+.borrowerLineRight {
+    display: flex;
+    align-items: center;
+}
+
+.borrowerText {
+    margin-right: 1em;
+}

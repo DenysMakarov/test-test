@@ -1,0 +1,9 @@
+.headerContainer {
+    border: 1px solid black;
+    grid-area: header;
+
+}
+
+.header {
+    margin: 0;
+}

@@ -1,0 +1,14 @@
+.router-pages-test{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.mock-btn{
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  cursor: pointer;
+}
